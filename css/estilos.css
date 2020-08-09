@@ -1,0 +1,700 @@
+*{
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+}
+
+body{
+	display: flex; /*IMPORTANTE para que los elemento sean flexibles*/
+	flex-direction: column; /*Coloca los elemntos en columnas*/
+	min-height: 100vh; /*Para que ocupe toda la altura definida*/
+	font-family: "roboto";
+}
+
+img{	
+	/* width: 100vw; */
+}
+
+.busqueda{
+	margin: auto;
+}
+
+.img_portada{
+	position: relative;
+  	display: flex;
+  	align-content: center;
+  	justify-content: center;
+  	margin-bottom: 20px;
+}
+
+.img_portada img{
+	width: 100%;	
+	margin: auto;
+}
+
+.img_logo img{
+	width: 50%;
+}
+
+#navbarTogglerDemo03{
+	margin-left: -300px;
+}
+
+.img_logo {
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+}
+
+#navbarTogglerDemo03{
+	text-align: center;
+	margin: auto;
+	justify-content: center;
+
+}
+
+.main-container{
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+
+}
+
+.main-container img{
+	width: 200px;
+	height: 200px;
+}
+
+.catalogo h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.catalogo p{
+	color: #424242;
+}
+
+/*---------------------------PRODUCTOS------------------------*/
+
+.section_productos{	
+	width: 90%;
+	margin: auto;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-bottom: 20px;
+}
+
+.section_productos h2{
+	padding: 20px;
+	text-align: center;	
+}
+
+.section_productos a{
+	width: 50%;
+	margin: auto;
+}
+
+.btn_productos{
+	padding: 10px;
+}
+
+.img_productos{
+	text-align: center;
+}
+
+.content-productos1{	
+	background: white;	
+	border-radius: 5px;
+	background: #00EAAF;
+	color: #fff;
+	margin: auto;
+}
+
+.content-productos2{
+	margin-top: 20px;
+	background: blue;	
+	border-radius: 5px;
+	background: #287EFF;
+	color: #fff;
+}
+
+.content-productos3{
+	margin-top: 20px;
+	background: red;	
+	border-radius: 5px;
+	background: #ff2364;
+	color: #fff;
+}
+
+/*----------------------------Ventajas----------------------*/
+
+
+
+.porque_usar{
+	width: 90%;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border-radius: 5px;
+	
+}
+
+.minicontenedor{
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+
+.porque_usar ul li{
+	list-style-type: disc;
+	margin-left: 15px;
+}
+
+.txt_titulo{
+	text-align: center;
+}
+
+.lista_porque_usar{
+	text-align: justify;
+	margin: auto;
+	justify-content: center;	
+	list-style: circle;
+	padding: 20px;
+	
+}
+
+.minicontenedor{
+	width: 100%;
+	margin: auto;
+}
+
+/*------------------Contactanos-----------------*/
+
+
+.section-contacto{
+ 	margin-bottom: 20px;
+
+}
+
+.contacto{
+	width: 90%;
+	border-radius: 5px;
+	margin: auto;
+	background: #287EFF;
+	margin-top: 20px;	
+	color: white;
+}
+
+.icon-phone{
+
+	font-size: 50px;
+	color: #44CF28;
+	border: solid 3px #44CF28;
+	padding: 30px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 1px;
+}
+
+.contacto-icon{
+	border-radius: 5px;
+	text-align: center;
+	margin: auto;
+	background: #287EFF;
+	width: 50%;
+	color: #44CF28;
+	margin-bottom: 10px;
+
+}
+
+.txt_num{
+	color: white;
+	font-size: 20px;
+	font-weight: bold;
+
+}
+
+.img_contacto{
+	text-align: center;
+}
+
+
+.content-contacto{
+
+	padding: 10px;
+
+
+}
+
+.container-footer-footer{
+	max-width: 100%;
+	color: #fff;
+	margin: auto;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 50px;
+	line-height: 1;
+	margin-top: 10px;
+}
+
+.copyright a{
+	display: flex;
+	color: #fff;	
+}
+
+.copyright a:hover{
+	text-decoration: none;
+	color: rgba(255,255,255,0.5);	
+}
+
+.informacion-footer {
+	display: flex;
+}
+
+.informacion-footer a{
+	color: #fff;
+}
+
+.txt_contenido_footer a{
+	color: #fff;
+}
+
+.informacion-footer a:hover{
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+.txt_contenido_footer a:hover{
+	color: rgba(255,255,255,0.5);
+	text-decoration: none;
+}
+
+
+
+.img_contact{
+	width: 30px;
+	height: 30px;
+	border-radius: 5px;
+	
+}
+
+
+
+.link_footer{
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+
+
+.icon-iphone-streamline{
+	color: #2FC10F;
+	font-size: 30px;
+}
+
+/*---------------------------CATALOGO DE PELICULAS----------*/
+
+.container-catalogo{
+	margin-top: -50px;
+}
+.catalogo img{
+	width: 100%;
+}
+
+.col-md-4 h2{
+	text-align: center;
+}
+
+
+
+.catalogo .card-text{
+	text-align: justify;
+}
+
+.botonera{
+	text-align: center;
+
+	width: 100%;
+	height: 50px;
+}
+
+.btn_catalogo{
+	margin-top: 10px;
+	
+}
+
+.btn_catalogo a{
+	color: #6c757d;
+	text-decoration: none;
+}
+
+.btn_catalogo a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+
+.botonera a{
+	color: white;
+}
+
+.botonera a:hover{
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+/*-------------------------Botonera-------------------------*/
+.botonera{
+	margin-top: 0px;
+}
+
+.botonera_interna{
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+}
+ 
+
+.container-catalogo .catalogo{
+	margin-top: 500px;
+
+}
+
+.container-catalogo {
+	display: block;
+	
+	width: 100%;
+}
+
+/*--------------------------MUSICA--------------------------*/
+.img_portada_musica{
+	background-size: 100%;
+	width: 100%;
+	margin: auto;
+	overflow: hidden;
+} 
+
+.catalogo_musica h2{
+	font-size: 25px;
+	font-weight: bold;
+	color: #424242;	
+	text-align: center;
+	margin-top: 20px;
+}
+
+/*---------------------------SERIES---------------------------------*/
+
+.catalogo_series{
+	margin-top: 100px;
+}
+
+.catalogo_series img{
+	width: 100%;
+}
+
+.catalogo_series h2{
+	font-size: 20px;
+	font-weight: bold;
+	color: #424242;
+}
+
+
+/*--------------------------------SERIES---------------------------------*/
+
+.catalogo_series .card-text{
+	text-align: justify;
+}
+
+/*-------------------PRECIOS-------------------*/
+
+.title_precios{
+	font-size: 22px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.title_detalles_precios{
+	font-size: 18px;
+	font-weight: bold;
+	color: #424242;
+}
+
+.txt_precios{
+	font-size: 18px;
+	color: #424242;
+}
+@media screen and (min-width: 990px) and (max-width: 1200px){
+	
+
+/*---------------------------PRODUCTOS--------------------*/
+
+.section_productos{
+	display: flex;
+	flex-direction: row;
+	margin-top: -150px;
+	z-index: 1000;
+	justify-content: space-between;
+}
+
+.content-productos1{
+	margin-top: 20px;
+
+}
+
+.content-productos2{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section_productos{
+	
+}
+
+
+
+/*---------------------------PORQUE USAR--------------------*/
+
+
+.porque_usar{
+	width: 90%;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	border-radius: 5px;
+	
+}
+
+.minicontenedor{
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+
+.porque_usar ul li{
+	list-style-type: disc;
+	margin-left: 45px;
+}
+
+.txt_titulo{
+	text-align: center;
+}
+
+.lista_porque_usar{
+	text-align: justify;
+	margin: auto;
+	justify-content: center;	
+	list-style: circle;
+	padding: 20px;
+	
+}
+
+.minicontenedor{
+	width: 60%;
+
+	margin: auto;
+}
+
+/*-----------------------CONTACTANOS-------------------------*/
+
+.content-contacto{
+	display: flex;
+	flex-direction: row;
+}
+
+.icon-phone{
+
+	font-size: 50px;
+	color: #44CF28;
+	border: solid 3px #44CF28;
+	padding: 30px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 1px;
+}
+
+.contacto-icon{
+	display: block;
+	width: 100px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #44CF28;
+	margin-bottom: 10px;
+	max-width: 300px;
+	margin: auto;
+	justify-content: space-around;
+
+}
+
+/*-------------------------Botonera-------------------------*/
+
+.botonera_interna{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+
+.container-catalogo	{
+	margin-top: -460px;
+}
+
+/*---------------------------SERIES---------------------------------*/
+
+.catalogo_series{
+	margin-top: 500px;
+}
+
+#prueba{
+
+
+}
+ 
+}
+
+
+@media screen and (min-width: 1200px){
+
+/*---------------------------PRODUCTOS--------------------*/
+.botonera_interna{
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+
+}
+.botonera{
+	width: 100%;
+}
+
+.container-catalogo	{
+	margin-top: -460px;
+}
+
+.section_productos{
+	display: flex;
+	flex-direction: row;
+	margin-top: -150px;
+	z-index: 1000;
+	justify-content: space-between;
+	max-width: 1200px;
+}
+
+.content-productos1{
+	margin-top: 20px;
+
+}
+
+.content-productos2{
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.section_productos{
+	
+}
+
+/*---------------------------PORQUE USAR--------------------*/
+
+.section-porque_usar{
+	background-image: url("erik-witsoe-GF8VvBgcJ4o-unsplash - copia.jpg");
+	background-size: 100%;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	width: 90%;
+	margin: auto;
+}
+
+.porque_usar{
+	width: 90%;
+	margin: auto;
+	margin-top: 200px;
+	margin-bottom: 200px;
+	border-radius: 5px;
+	
+}
+
+.minicontenedor{
+	text-align: center;
+	background: rgba(255,255,255,0.8);
+	border-radius: 5px;
+}
+
+.porque_usar ul li{
+	list-style-type: disc;
+	margin-left: 45px;
+}
+
+.txt_titulo{
+	text-align: center;
+}
+
+.lista_porque_usar{
+	text-align: justify;
+	margin: auto;
+	justify-content: center;	
+	list-style: circle;
+	padding: 20px;
+	
+}
+
+.minicontenedor{
+	width: 40%;
+
+	margin: auto;
+}
+
+/*-----------------------CONTACTANOS-------------------------*/
+
+.content-contacto{
+	display: flex;
+	flex-direction: row;
+}
+
+.icon-phone{
+
+	font-size: 50px;
+	color: #44CF28;
+	border: solid 3px #44CF28;
+	padding: 30px;
+	display: inline-block;
+	background: #fff;
+	border-radius: 50%;
+	line-height: 1px;
+}
+
+.contacto-icon{
+	display: block;
+	width: 100px;
+	border-radius: 5px;
+	margin-left: 10px;
+	margin-right: 10px;
+	color: #44CF28;
+	margin-bottom: 10px;
+	max-width: 300px;
+	margin: auto;
+	justify-content: space-around;
+
+}
+
+
+/*---------------------------SERIES---------------------------------*/
+
+.catalogo_series{
+	margin-top: 500px;
+}
+
+
+}
+
+
+
+
